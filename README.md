@@ -8,6 +8,8 @@
 A quick project to practice new basics functionalities from NextJS feature 13: A simple page to taking Notes, and list them.
 To store notes, was used PocketBase, a Open Source backend in 1 file, very easy to use.
 
+Extracted from Youtube Video: https://www.youtube.com/watch?v=__mSgDEOyv8&ab_channel=BeyondFireship
+
 
 ### Built With
 
@@ -31,6 +33,15 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+Download Pocketbase from [pocketbase.io](pocketbase.io)
+Navigate to the unzipped directory
+`cd pocketbase_0.7.9_darwin_arm64`
+Start Pocketbase:
+`./pocketbase serve`
+Open the [Admin UI](http://127.0.0.1:8090/_/), create collection, and update security rules to allow read/write access. 
+Add `experimental: { appDir: true }` to `next.config.js`
+
 
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
