@@ -32,19 +32,19 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-<br />
+<br /><br />
 Download Pocketbase from [pocketbase.io](pocketbase.io)
-<br />
+<br /><br />
 Navigate to the unzipped directory
-<br />
+<br /><br />
 `cd pocketbase_0.7.9_darwin_arm64`
-<br />
+<br /><br />
 Start Pocketbase:
-<br />
+<br /><br />
 `./pocketbase serve`
-<br />
+<br /><br />
 Open the [Admin UI](http://127.0.0.1:8090/_/), create collection, and update security rules to allow read/write access. 
-<br />
+<br /><br />
 Add `experimental: { appDir: true }` to `next.config.js`
 <br />
 <br />
