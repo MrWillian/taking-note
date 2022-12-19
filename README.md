@@ -18,7 +18,6 @@ Extracted from Youtube Video: https://www.youtube.com/watch?v=__mSgDEOyv8&ab_cha
 
 <br />
 <br />
-<br />
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -35,11 +34,17 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 Download Pocketbase from [pocketbase.io](pocketbase.io)
+<br />
 Navigate to the unzipped directory
+
 `cd pocketbase_0.7.9_darwin_arm64`
+<br />
 Start Pocketbase:
+
 `./pocketbase serve`
+<br />
 Open the [Admin UI](http://127.0.0.1:8090/_/), create collection, and update security rules to allow read/write access. 
+<br />
 Add `experimental: { appDir: true }` to `next.config.js`
 
 
