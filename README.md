@@ -1,3 +1,20 @@
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<a name="readme-top"></a>
+
+## About The Project
+
+[taking-note-nextjs.webm](https://user-images.githubusercontent.com/50757994/208452613-252bbe0a-8d62-4df9-a6ba-85eac8857822.webm)
+
+A quick project to practice new basics functionalities from NextJS feature 13: A simple page to taking Notes, and list them.
+To store notes, was used PocketBase, a Open Source backend in 1 file, very easy to use.
+
+
+### Built With
+
+* [![Next][Next.js]][Next-url]
+* [![PocketBase][PocketBase]][PocketBase-url]
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -32,3 +49,16 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/willian-marciel
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+[PocketBase]: https://img.shields.io/badge/Pocket-base?style=for-the-badge&logo=pocketbase&colorB=555
+[PocketBase-url]: https://pocketbase.io/
